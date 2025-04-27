@@ -26,11 +26,13 @@ from .vipnas_mbv3 import ViPNAS_MobileNetV3
 from .vipnas_resnet import ViPNAS_ResNet
 from .vit import ViT
 from .vit_moe import ViTMoE
+from .vit_multi import ViTMultiOutput
+from .vit_fpn_backbone import ViTFPNBackbone
 
 __all__ = [
     'AlexNet', 'HourglassNet', 'HourglassAENet', 'HRNet', 'MobileNetV2',
     'MobileNetV3', 'RegNet', 'ResNet', 'ResNetV1d', 'ResNeXt', 'SCNet',
     'SEResNet', 'SEResNeXt', 'ShuffleNetV1', 'ShuffleNetV2', 'CPM', 'RSN',
     'MSPN', 'ResNeSt', 'VGG', 'TCN', 'ViPNAS_ResNet', 'ViPNAS_MobileNetV3',
-    'LiteHRNet', 'V2VNet', 'HRFormer', 'ViT', 'ViTMoE'
+    'LiteHRNet', 'V2VNet', 'HRFormer', 'ViT', 'ViTMoE', 'ViTMultiOutput', 'ViTFPNBackbone'
 ]
