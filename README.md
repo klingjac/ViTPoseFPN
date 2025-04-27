@@ -1,7 +1,7 @@
 # ViTPose –– *FPN Architecture Implementation* 
 
 > **This repository is a fork that builds on the original [ViTPose](https://github.com/ViTAE-Transformer/ViTPose).**  
-> FPN modifications were implemented by: Adithya Raman, Jacob Klingler, Niva Ranavat and Sarah Jamil as part of ROB499/599.
+> FPN modifications were implemented by: Adithya Raman, Jacob Klingler, Niva Ranavat and Sarah Jamil as part of ROB499/599 - [website](https://sarahtj.github.io/website/).
 
 > This setup was tested on the GreatLakes computing cluster at the University of Michigan
 
