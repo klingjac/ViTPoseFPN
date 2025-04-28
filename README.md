@@ -10,7 +10,7 @@
 
 ## Installation
 
-We use PyTorch 1.9.0 and mmcv 1.3.9, instructions for installing mmcv and other ViTPose dependancies are specifiec bellow:
+We use PyTorch 1.9.0 and mmcv 1.3.9, instructions for installing mmcv and other ViTPose dependancies are specific bellow:
 ```bash
 git clone https://github.com/open-mmlab/mmcv.git
 cd mmcv
