@@ -36,6 +36,10 @@ Once the dataset is downloaded, you can generate the subset using the tools in t
 Additionally, to run our FPN experiments, you will need the backbone weights from the original ViTPose. The ViTPose-B model weights can be downloaded from [here](https://onedrive.live.com/?id=E534267B85818129!163&resid=E534267B85818129!163&e=Q1uZKs&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBaW1CZ1lWN0pqVGxnU01qcDFfTnJWM1ZSU21LP2U9UTF1Wktz&cid=e534267b85818129).
 
 After downloading the weights, you'll need to extract the backbone weights which can be done through the following:
+```bash
+python utils/extract_backbone.py
+```
+Keep in mind you will need to edit two paths within the extract_backbone.py file based on where your vitpose-b.pth is located and where you want the destination to be.
 
 ## Training/Evaluation
 To replicate the experiments from our paper, we have provided a set of configuration files to simplify usage. For each configuration file, you can use this process to train and evaluate:
