@@ -28,7 +28,7 @@ pip install timm==0.4.9 einops
 ```
 
 ## Dataset Preparation
-Our experimentation was done using a subset the COCO 2017 dataset. To prepare this subset, the full COCO 2017 dataset and annotations will need to be downloade from [here](https://cocodataset.org/#download).
+Our experimentation was done using a subset the COCO 2017 dataset. To prepare this subset, the full COCO 2017 dataset and annotations will need to be downloaded from [here](https://cocodataset.org/#download).
 
 Once the dataset is downloaded, you can generate the subset using the tools in the utils folder, which includes generate_coco_split.py and coco_split.sh. In both of these files, you'll need to specify the filepath for your downloaded dataset and where the subset will be created. We recomend making the subset inside of a data directory within ViTPose.
 
