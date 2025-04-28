@@ -63,5 +63,6 @@ Each configuration file has model parameters which can be edited to change strid
 - simp_fpn_multiple_head.py - Final transformer feature maps generation with multiple feature maps passed into the decoder
 - inter_config.py - Intermediate transformer output for feature map generation
 - ViTPose_base_coco_256x192.py - ViTPose-B model
+- ViTPose_base_coco_256x192_fpn.py - Fpn applied to final encoder layer
 
 
